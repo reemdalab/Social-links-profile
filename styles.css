@@ -1,0 +1,62 @@
+body{
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 30px;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+}
+img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.profile h2
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.profile h3
+{
+   color:  #8AA241;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   text-align: center;
+}
+.profile h5
+{
+    color: rgb(180 173 173);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.profile button
+{
+    width: 95%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    background-color: #333333;
+    border: thin;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile button:hover
+{
+    background-color: #c4f82a ;
+    color: #3f4e2f;    
+}
